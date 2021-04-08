@@ -45,7 +45,7 @@ include 'header.php';
     <label for="inputAddress2">Phone No  <span class="parsley-required" style="color:red">*</span></label>
     <input type="text" class="form-control" name="phone_no" id="inputAddress2" placeholder="Enter your Phone No." required="true" data-parsley-type="digits" maxlength="10" data-parsley-required-message="Please Enter Contact No" data-parsley-pattern=^[6-9]\d{9}$  data-parsley-pattern-message="Mobile no should starts with 6/7/8/9 AND 10 Digit">
     </div>
-    <div class="form-group col-md-4">
+    <div class="form-group col-md-12">
     <label for="inputAddress2">Description</label>
   <textarea class="form-control" name="desc" aria-label="With textarea"></textarea>
     </div>

@@ -59,10 +59,10 @@ footer .mainlinks{  padding:3rem 0 3rem 1rem;}
 footer .podcast-section{ padding:3rem 0rem 0 0rem}
 footer .social-media{ padding:0rem 0rem 0 0rem}
 .menu-container{ display:block; padding:0 1rem}
-.logo{ width:220px; margin: 0 auto; position:static}	
+.logo{ width:220px;}	
 .logo img{ width:100%}
 .menu > ul{ margin:0 auto}
-.menu{display: table; width: auto; margin: 0 auto;}
+.menu{display: table; width: auto; margin-left: auto;}
 .side-nav{  justify-content: center; -webkit-box-pack: center}
 .product-carousel .productItems img, .generic-hero .itemimg img{ width:100%}
 .three60view .three60view-content {transform: translate(-10%,-50%);}
@@ -136,11 +136,46 @@ footer .social-media{  padding:0rem 2rem 4rem 2rem}
 }
 
 @media(max-width:767px) {
+    .footer-newletter{
+        padding: 1rem 0;
+    }
+    .newsletter-wrapper {
+        padding: 10px 10px 10px;
+    }
+    .top_footer .container{
+        padding: 0 10px;
+    }
+    .f_list{
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .menu-container{ display:block; padding:0 1rem}
-.logo{ width:100px; margin: 0 auto; position:static}	
+.logo{ width:310px; margin: 0 auto; position:static}	
+.topbar li a{font-size: 13px;}
+.topbar-right .trueValuelogo img {
+    max-height: 28px;
+}
+.passenger-carrier-section ul li{
+    width: 32.5%;
+}
+.footer_social {
+    width: 36%;
+}
+.number-email {
+    width: 50%;
+    float: left;
+}
+.top_footer .number-email p {
+    text-align: left;
+    margin-bottom: 0;
+}
+.footer_list{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 14px;
+    margin-bottom: 15px;
+}
 .logo img{ width:100%}
 .menu{ display:block; }
 .menu a{ color:#FFF}
@@ -164,10 +199,35 @@ footer .footer-links h4{ margin-bottom:1rem}
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 .menu-container{ display:block; padding:0 1rem}
 .logo{ width:220px; margin: 0 auto;/* right: -50%; left: -50%; transform: translate(0%, 12%);*/ position:static}	
+.category-difint li a {
+    font-size: 14px;
+}
+.passenger-carrier-section ul li {
+    width: 49%;
+}
+.footer_social {
+    width: 36%;
+}
+.number-email {
+    width: 50%;
+    float: left;
+}
+.footer_bottom{
+    margin-bottom: 3rem;
+}
+.top_footer .btn{
+    margin: 0px auto;
+    display: block;
+    max-width: 156px;
+}
+.top_footer .number-email p {
+    text-align: left;
+    margin-bottom: 0;
+}
 .logo img{ width:100%}
 .sevaLogo{ left:10px}
 .menu{ display:block; }
-.menu a{ color:#e82127}
+/* .menu a{ color:#e82127} */
 .menu > ul > li a{ padding:1.5em}
 .menu > ul{ margin:15px 0}
 .menu > ul > li > ul > li a img{ width:70%}

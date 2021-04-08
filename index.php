@@ -58,45 +58,155 @@ include 'header.php';
         <!--/.Slides--> <!--Controls--> <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> <!--/.Controls--> </div>
     </div>
   </div>
-  <div class="container">
-    <div class="nexa-cars">
-      <h2>Maruti Suzuki Commercial</h2>
-      <div class="passenger-carrier-section">
-      <h3 class="text-center"> Passenger Carrier</h3>
-      <ul>
-      <li><a href="tour-H1.php"><img src="assets/images/drop-down-alto.png"><h4>Tour h1</h4></a></li>	
-      <li><a href="tour-H2.php"><img src="assets/images/drop-down-celerio.png"><h4> Tour H2</h4> </a></li>
-      <li><a href="tour-M.php"><img src="assets/images/drop-down-ertiga.png"><h4> Tour M </h4></a></li>
-      <li><a href="tour-S.php"><img src="assets/images/drop-down-dzire.png"><h4> Tour S</h4> </a></li>
-       <li><a href="tour-V.php"><img src="assets/images/drop-down-eeco.png"><h4> Tour V</h4> </a></li>
+
+
+  <div class="container mt-5">
+    <div class="section-title">
+      <h2>Our Range</h2>
+    </div>
+    <div class="w-100 d-flex justify-content-center mt-4 mb-4" style="border-bottom: 1px solid #aeadad;padding-bottom: 5.5px;">
+      <ul class="nav nav-tabs category-difint">
+        <li><a data-toggle="tab" href="#Passenger-Carrier" class="active">Passenger Carrier</a></li>
+        <li ><a data-toggle="tab" href="#Goods-Carrier" >Goods Carrier</a></li>
       </ul>
       </div>
-      <div class="my-4">
-       <h3 class="text-center"> Goods Carrier</h3>
-      <div class="d-flex flex-wrap d-lg-flex d-md-flex justify-content-center">
-
-        <div class="col-lg-3 col-md-3 col-sm-3 nexa-carDetails my-3">
-          <div class="ncarImage"><img src="assets/images/truck-img1_Home.png"  class="resposive-img"/> </div>
-          <div class="ncarbtn d-flex justify-content-between">
-            <a href="super-carry.php">
-            <div class="carName">Super Carry</div>
-            </a> </div>
+    <div class="w-100 d-flex justify-content-center mt-4 mb-4">
+      <div class="tab-content">
+        <div id="Passenger-Carrier" class="tab-pane active">
+          <div class="passenger-carrier-section">
+          <ul>
+          <li><a href="tour-H1.php"><img src="assets/images/drop-down-alto.png"><h4>Tour h1</h4></a></li>	
+          <li><a href="tour-H2.php"><img src="assets/images/drop-down-celerio.png"><h4> Tour H2</h4> </a></li>
+          <li><a href="tour-M.php"><img src="assets/images/drop-down-ertiga.png"><h4> Tour M </h4></a></li>
+          <li><a href="tour-S.php"><img src="assets/images/drop-down-dzire.png"><h4> Tour S</h4> </a></li>
+          <li><a href="tour-V.php"><img src="assets/images/drop-down-eeco.png"><h4> Tour V</h4> </a></li>
+          </ul>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 nexa-carDetails my-3">
-          <div class="ncarImage"><img src="assets/images/truck-img2.png" class="resposive-img" /> </div>
-          <div class="ncarbtn d-flex justify-content-between">
-            <a href="eeco-cargo.php"><div class="carName">EECO Cargo</div>
-            </a> </div>
-        </div>
+        <div id="Goods-Carrier" class="tab-pane fade">
+          <div class="my-4">
+           <div class="d-flex flex-wrap d-lg-flex d-md-flex justify-content-center">
+             <div class="col-6 col-sm-3 nexa-carDetails my-3">
+               <div class="ncarImage"><img src="assets/images/truck-img1_Home.png"  class="resposive-img"/> </div>
+               <div class="ncarbtn d-flex justify-content-between">
+                 <a href="super-carry.php">
+                 <div class="carName">Super Carry</div>
+                 </a> </div>
+             </div>
+             <div class="col-6 col-sm-3 nexa-carDetails my-3">
+               <div class="ncarImage"><img src="assets/images/truck-img2.png" class="resposive-img" /> </div>
+               <div class="ncarbtn d-flex justify-content-between">
+                 <a href="eeco-cargo.php"><div class="carName">EECO Cargo</div>
+                 </a> </div>
+             </div>
+          </div>
      </div>
-</div>
-    </div>
-    <div class="mb-5 text-center">
-      <h3>About Us</h3>
-      <p>When it comes to mobility, our expertise knows no bounds as our extensive presence in all segments of the market makes us the pioneers in the automobile industry of our country. ‘Commercial’ is a familiar concept for us as 40% of our existing customer base comprises numerous business profiles. With already possessing reputable experience with a leadership stance in the taxi and van commercial segment, we at Maruti Suzuki are now all set to take care of all your load carrying capacity.</p>
-      <p>The Company’s Commercial Channel is the fastest growing automobile retail channel in India. Currently our commercial vehicles are being retailed through over 320+ separate commercial outlets across more than 235+ cities.  It is our endeavour to reach closer to customers as much as possible and we will plan network expansion as per the growing business requirement. </p>
+        </div>
+      </div>
     </div>
   </div>
+  
+
+  <section class="about-us-section">
+    <div class="container-fluid">
+      <div class="row">
+        
+        <div class="col-md-5 col-lg-5  offset-lg-1">
+          <div class="content-about">
+            <h3>About Us</h3>
+            <p class="text-justify">Seva Automotive is an authorized multi-location Maruti Suzuki dealership since 1985. Headquartered in Nashik, Seva Automotive family has marked its presence in Nashik, Nagpur, Nanded, Dhule, Wardha & Nandurbar. It also has its presence in rural areas like Igatpuri, Yeola, Hinganghat, Ramtek, Katol with overall 11 Arena Showrooms (including 2 E-outlets and 5 R-Outlets), 3 Nexa Showrooms, 4 Commercial Showrooms, 2 True Value Outlets, 13 Workshops in Maharashtra</p>
+            <p class="text-justify">We're a full service, state-of-the-art Maruti Suzuki dealership who strives to provide high-quality service, amenities, & experience. With Seva Automotive you are one step closer to owning your dream car. Our goal is to provide our customers with quality cars they can drive right off our showroom floor.
+            </p>
+            <p class="text-justify">
+              Visit nearest Seva Automotive Commercial - Showroom to browse through all the available variants of Maruti Suzuki Commercial Super Carry, Eeco Cargo & Tour Cars. 
+            </p>
+            <p class="text-justify">
+              Look through the Goods Carriers & Passenger Carriers at our Maruti Suzuki Commercial Showrooms and test drive your favourite vehicle today!
+            </p>
+
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-5">
+          <div class="campus-visit-wrapper">
+            <div class="campus-image-col">
+                 <img src="assets/images/about1.jpg"   
+            </div>
+          </div>
+        </div>
+
+
+
+        
+      </div>
+    </div>
+  </section>
+  <section class="our-value-commercial mb-5">
+    <div class="container mt-5 pt-3 ">
+      <div class="section-title pb-3">
+        <h2>Our Range</h2>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-3 col-6 mb-2">
+          <div class="item">
+            <div class="inner">
+              <div class="overlay"></div>
+              <div class="icon">
+                <img class="black_img" src="assets/images/service-icon2.png" alt="">
+                <img class="white_img" src="assets/images/service-icon2-white.png" alt="">
+            </div>
+              <h3>INGENUITY</h3>
+              <p>Creative and innovative solutions tailor-made to address the gap between home and hub life or cater to day to day business challenges.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-6 mb-2">
+          <div class="item">
+            <div class="inner">
+              <div class="overlay"></div>
+              <div class="icon">
+                <img class="black_img" src="assets/images/service-icon3.png" alt="">
+                <img class="white_img" src="assets/images/service-icon3-white.png" alt="">
+            </div>
+              <h3>EFFICIENCY</h3>
+              <p>Quick and efficient solutions and processes created to enhance productivity & growth of business.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-6 mb-2">
+          <div class="item">
+            <div class="inner">
+              <div class="overlay"></div>
+              <div class="icon">
+                <img class="black_img" src="assets/images/service-icon4.png" alt="">
+                <img class="white_img" src="assets/images/service-icon4-white.png" alt="">
+            </div>
+              <h3>OPENNESS & TRANSPARENCY</h3>
+              <p>Honesty and transparency across processes, dissemination of information and dealings, invoking a sense of genuineness. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-6 mb-2">
+          <div class="item">
+            <div class="inner">
+              <div class="overlay"></div>
+              <div class="icon">
+                <img class="black_img" src="assets/images/service-icon5.png" alt="">
+                <img class="white_img" src="assets/images/service-icon5-white.png" alt="">
+            </div>
+              <h3>Reliability</h3>
+              <p>Inspiring trust by showcasing dependability in every interaction across the various aspects of the channel- availability, acquisition, performance & service.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
   <!--<div class="testimonials">
     <div class="container">
       <h1>CUSTOMERS SPEAK</h1>
@@ -138,5 +248,6 @@ include 'header.php';
     </div>
     <div class="clearfix"></div>
   </div>-->
+
 </main>
 <?php  require_once('footer.php');?>

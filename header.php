@@ -41,12 +41,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <ul class="list-inline">
             <li class="topbar_item topbar_item_type-contact_timing">
               <img src="assets/images/phone.svg" style="width: 20px;"/>
-              <a href="tel:8390446644">+91 83904 46644</a>
-
-            </li>
+              <a href="tel:8390446644"> +91 83904 46644</a>
+              </li>
               <li class="topbar_item topbar_item_type-email">
                 <img src="assets/images/mail.svg" style="width: 20px;"/>
-                <a href="mailto:enquiry@marutiseva.com">enquiry@marutiseva.com</a>
+                <a href="mailto:enquiry@marutiseva.com"> enquiry@marutiseva.com</a>
               </li>
             </ul>
           </div>
@@ -75,7 +74,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 
 <header class="sticky-top">
-
  <div id="preloader">
     <div id="preloader__status">&nbsp;</div>
 </div>
@@ -85,8 +83,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <img src="assets/images/seva-logo.svg" >
     </a>
    <a href="http://commercial.marutiseva.com" class="logo">
-     <!-- <img src="assets/images/logo.png"> -->
-     <img src="assets/images/commercial.svg">
+     <img src="assets/images/logo.png">
+     <!-- <img src="assets/images/commercial.svg"> -->
    </a>
 
     <div class="menu">
@@ -96,13 +94,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <ul class='submenu'>
             <li><a href="about-us.php">About Us</a></li>
             <li><a href="our-team.php">Our Team</a></li>
+            <li><a href="our-showrooms.php">Our Showrooms</a></li> 
          </ul>
         </li>
 
         <li><a href="#">Workshop</a>
         <ul class='submenu'>
             <li><a href="schedule-services.php">Schedule Service / Accident Repair</a></li>
-            <li><a href="our-showrooms.php">Our Showrooms</a></li>            
+            <li><a href="#">Our Workshop</a></li>            
          </ul>
         </li>
         <li>
@@ -140,7 +139,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   
 </header>
-<nav class="cd-stretchy-nav">
+
+
+<!-- <nav class="cd-stretchy-nav">
     <a class="cd-nav-trigger" href="#0">
 			<span aria-hidden="true"></span>
 		</a>
@@ -150,7 +151,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li><a href="enquiry.php"><span>Enquiry</span></a></li>
     </ul>
     <span aria-hidden="true" class="stretchy-nav-bg"></span>
-  </nav>
+  </nav> -->
+
+  <div class="sticky-container d-none d-md-block">
+    <ul class="sticky">
+      <li class="hover-item"> <a href="our-presence-workshop.php" class="hvr-icon-wobble-horizontal"> <i class="mdi mdi-security-home"></i> <b class="footer-sticky1"> Find Workshop</b></a> </li>
+      <li class="hover-item"> <a href="schedule-services.php" class="hvr-icon-wobble-horizontal"> <i class="mdi mdi-car-wash"></i> <b class="footer-sticky1"> Book Service</b></a> </li>
+      <li class="hover-item"> <a href="online-booking.php" class="hvr-icon-wobble-horizontal"> <i class="mdi mdi-car-sports"></i> <b class="footer-sticky1">Book Your Car</b></a> </li>
+      <li class="hover-item"> <a href="value-added-services.php" class="hvr-icon-wobble-horizontal"> <i class="mdi mdi-cards-playing-outline"></i> <b class="footer-sticky1">VAS Services</b></a> </li>
+      <li class="hover-item"> <a href="enquiry.php" class="hvr-icon-wobble-horizontal"> <i class="mdi mdi-notification-clear-all"></i> <b class="footer-sticky1"> Enquiry </b></a> </li>
+    </ul>
+  </div>
+
+  <div class="mobile-design d-md-none d-sm-none">
+    <div class="mobile-fixes">
+      <div class="row no-gutters">
+        <div class="col">
+          <a href="schedule-services.php" class="hvr-icon-wobble-horizontal"> <i class="mdi mdi-car-wash"></i> Service</a>
+        </div>
+        <div class="col border-left border-right">
+          <a href="online-booking.php" class="hvr-icon-wobble-horizontal"> <i class="mdi mdi-car-sports"></i> Booking</a>
+        </div>
+        <div class="col border-left border-right">
+          <a href="online-booking.php" class="hvr-icon-wobble-horizontal"> <i class="mdi mdi-car-sports"></i> VAS </a>
+        </div>
+        <div class="col">
+          <a href="enquiry.php" class="hvr-icon-wobble-horizontal"> <i class="mdi mdi-notification-clear-all"></i> Enquiry </a>
+        </div>
+      </div>
+  </div>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> 
 

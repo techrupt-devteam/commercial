@@ -15,33 +15,102 @@ $title="SEVA Maruti Suzuki Commercial Car Showroom in Nashik, Nagpur, Nanded, Dh
     </div>
     <div class="row">
       <div class="col-sm-12 col-md-6 col-lg-6"> <img src="assets/images/nashik.jpg" class="resposive-img">
-        <div class="my-3">
-          <h4>Nashik</h4>
-          <p>address</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.174521390546!2d73.75842421491505!3d19.959161486587384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb7b1a07cd2441306!2sMaruti%20Suzuki%20Commercial%20%F0%9F%99%8F%20Seva%20Automotive%2C%20Pathardi%20Phata%2C%20Nashik!5e0!3m2!1sen!2sin!4v1608012221447!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="atbd_listing_info">
+          <div class="atbd_content_upper">
+            <div class="atbd_listing_data_list">
+              <h4>Nashik</h4>
+              <ul>
+                <li>
+                  <p>Shop No. 8,9,10,11 Besides Hotel Grand Ashwin, <br>Nr. Hotel Shiv Sagar, Pathardi Phata, <br/>
+                   Nashik, Maharashtra 422009</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="atbd_listing_bottom_content">
+            <div class="atbd_content_left">
+              <div class="atbd_listting_category">
+                  <a href="https://g.page/Seva-Commercial-Nashik?share" target="_blank">
+                    <span class="mdi mdi-map-marker"><i class="fa fa-map-signs"></i> </span>Map Location
+                  </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col-sm-12 col-md-6 col-lg-6"> <img src="assets/images/nagpur.jpg" class="resposive-img">
-        <div class="my-3">
-          <h4>Nagpur</h4>
-          <p>address</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.9675061595926!2d79.00658001493474!3d21.153691385930745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd13cc4b6a5f321bc!2sMaruti%20Suzuki%20Commercial%20%F0%9F%99%8F%20Seva%20Automotive%2C%20Nagpur!5e0!3m2!1sen!2sin!4v1608012311901!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="atbd_listing_info">
+          <div class="atbd_content_upper">
+            <div class="atbd_listing_data_list">
+              <h4>Nagpur</h4>
+              <ul>
+                <li>
+                  <p> 33, Hingna Rd Central MIDC, <br>near Seva Maruti Suzuki True Value, <br/>
+                    Nagpur, Maharashtra 440016</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="atbd_listing_bottom_content">
+            <div class="atbd_content_left">
+              <div class="atbd_listting_category">
+                  <a href="https://g.page/seva-commercial-nagpur?share" target="_blank">
+                    <span class="mdi mdi-map-marker"><i class="fa fa-map-signs"></i> </span>Map Location
+                  </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       
-      <div class="col-sm-12 col-md-6 col-lg-6" style="margin-top:1rem;margin-bottom:1rem"> <img src="assets/images/naded-commercial.jpg" class="resposive-img">
-        <div class="my-3">
-          <h4>Nanded</h4>
-          <p>address</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.697619580636!2d79.06742441493422!3d21.124618185946588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2e131819f7dffb34!2sMaruti%20Suzuki%20Commercial%20%F0%9F%99%8F%20Seva%20Automotive%2C%20Vasant%20Nagar%2C%20Nanded!5e0!3m2!1sen!2sin!4v1608011773988!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <div class="col-sm-12 col-md-6 col-lg-6" style="margin-top:1rem;margin-bottom:1rem"> 
+        <img src="assets/images/naded-commercial.jpg" class="resposive-img">
+        <div class="atbd_listing_info">
+          <div class="atbd_content_upper">
+            <div class="atbd_listing_data_list">
+              <h4>Nanded</h4>
+              <ul>
+                <li>
+                  <p> Shop No. 11, near Gundegaonkar Petrol Pump, <br> Vasant Nagar, Harsh Nagar, <br/>
+                    Nanded, Maharashtra 431602 </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="atbd_listing_bottom_content">
+            <div class="atbd_content_left">
+              <div class="atbd_listting_category">
+                  <a href="https://g.page/seva-commercial-nanded?share" target="_blank">
+                    <span class="mdi mdi-map-marker"><i class="fa fa-map-signs"></i> </span>Map Location
+                  </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       
-      <div class="col-sm-12 col-md-6 col-lg-6" style="margin-top:1rem;margin-bottom:1rem"> <img src="assets/images/nashik.jpg" class="resposive-img">
-        <div class="my-3">
-          <h4>Dhule</h4>
-          <p>address</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.1952995985057!2d74.7754135149298!3d20.864176986087827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x293277baaf7757ef!2sMaruti%20Suzuki%20Commercial%20%F0%9F%99%8F%20Seva%20Automotive%2C%20Mohadi%20Upnagar%2C%20Dhule!5e0!3m2!1sen!2sin!4v1608011849459!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <div class="col-sm-12 col-md-6 col-lg-6" style="margin-top:1rem;margin-bottom:1rem"> <img src="assets/images/Dhule.jpg" class="resposive-img">
+        <div class="atbd_listing_info">
+          <div class="atbd_content_upper">
+            <div class="atbd_listing_data_list">
+              <h4>Dhule</h4>
+              <ul>
+                <li>
+                  <p>  Besides Shani Mandir, Near Railway Crosssing, <br> Dhule Moghan Rd, Mohadi Upnagar, <br/>
+                    Dhule, Maharashtra 424001 </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="atbd_listing_bottom_content">
+            <div class="atbd_content_left">
+              <div class="atbd_listting_category">
+                  <a href="https://g.page/seva-commercial-dhule?share" target="_blank">
+                    <span class="mdi mdi-map-marker"><i class="fa fa-map-signs"></i> </span>Map Location
+                  </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
