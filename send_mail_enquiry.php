@@ -109,15 +109,16 @@ $message2.='<span style="font-size:14px"><span style="font-family:arial,helvetic
 
         $data_ = date('d/m/Y h:i:s A');
 
-        $sql = "INSERT INTO `commercial_enquiries`(`name`, `email`, `mobile`, `desc`) VALUES ('$full_name',' $to','$phone_no','$desc')";
+ $sql = "INSERT INTO `commercial_enquiries`(`name`, `email`, `mobile`, `desc`) VALUES ('$full_name',' $to','$phone_no','$desc')";
 
-        
+
 
 
 
         if ($conn->query($sql) === TRUE) {
 
           //echo "New record created successfully";
+           header("Location: thank-you.php");
 
         } else {
 
@@ -125,6 +126,6 @@ $message2.='<span style="font-size:14px"><span style="font-family:arial,helvetic
 
         }
 
-     header("Location: thank-you.php");
+    
     }
 ?>

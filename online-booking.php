@@ -207,11 +207,12 @@ picker.addEventListener('input', function(e){
   {
        var selectValue = $("#car").val();            
         $.ajax({
-            url: '/getvar',
+            url: 'getvar.php',
             type: 'post',
             data: {id: selectValue},
             success: function (data) 
             {
+
               $("#varient").html(data);
             }
         });
@@ -224,7 +225,7 @@ picker.addEventListener('input', function(e){
         //$("#city_id_").empty();
 
         $.ajax({
-            url: 'https://commercial.marutiseva.com/admin/admin/getcolor',
+            url:  'getcolor.php',
             type: 'post',
             data: {id: selectValue,car: car},
             success: function (data) 

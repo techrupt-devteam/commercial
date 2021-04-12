@@ -235,7 +235,7 @@
         });
   
   
-  $(document).ready(function() {  
+ /* $(document).ready(function() {  
   
       document.addEventListener('contextmenu', event => event.preventDefault());
       $(document).keydown(function (event) {
@@ -247,7 +247,7 @@
       });
       console.clear();
   
-    });
+    });*/
   </script> 
   <script>
   jQuery(document).ready(function() {
