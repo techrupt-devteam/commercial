@@ -308,8 +308,10 @@ else
 
       var options = {
 
-    "key": "rzp_live_qW1poYrCW3uQa9", 
-
+     "key": "rzp_live_qW1poYrCW3uQa9", 
+    
+   // "key": "rzp_test_5XcL6lhZCZy1dG", 
+    
     //"amount": 100, 
 
     "amount": "<?= $amt ?>", 
