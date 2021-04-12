@@ -97,13 +97,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li><a href="our-showrooms.php">Our Showrooms</a></li> 
          </ul>
         </li>
-
-        <li><a href="#">Workshop</a>
-        <ul class='submenu'>
-            <li><a href="schedule-services.php">Schedule Service / Accident Repair</a></li>
-            <li><a href="#">Our Workshop</a></li>            
-         </ul>
-        </li>
         <li>
           <a href="#">Our Products</a>
           <ul>
@@ -125,6 +118,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </ul>
 
         </li>
+        <li><a href="#">Workshop</a>
+          <ul class='submenu'>
+              <li><a href="schedule-services.php">Schedule Service / Accident Repair</a></li>
+              <li><a href="workshop.php">Our Workshop</a></li>            
+           </ul>
+          </li>
         <li><a href="latest-offers.php">Latest Offers</a></li>
         
          <li><a href="online-booking.php" class="booknowbtn"><i class="mdi mdi-car"></i> Book Now</a></li>
@@ -158,7 +157,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li class="hover-item"> <a href="our-presence-workshop.php" class="hvr-icon-wobble-horizontal"> <i class="mdi mdi-security-home"></i> <b class="footer-sticky1"> Find Workshop</b></a> </li>
       <li class="hover-item"> <a href="schedule-services.php" class="hvr-icon-wobble-horizontal"> <i class="mdi mdi-car-wash"></i> <b class="footer-sticky1"> Book Service</b></a> </li>
       <li class="hover-item"> <a href="online-booking.php" class="hvr-icon-wobble-horizontal"> <i class="mdi mdi-car-sports"></i> <b class="footer-sticky1">Book Your Car</b></a> </li>
-      <li class="hover-item"> <a href="value-added-services.php" class="hvr-icon-wobble-horizontal"> <i class="mdi mdi-cards-playing-outline"></i> <b class="footer-sticky1">VAS Services</b></a> </li>
       <li class="hover-item"> <a href="enquiry.php" class="hvr-icon-wobble-horizontal"> <i class="mdi mdi-notification-clear-all"></i> <b class="footer-sticky1"> Enquiry </b></a> </li>
     </ul>
   </div>
